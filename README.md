@@ -53,7 +53,7 @@ Once you have created your account you can deploy your instance by clicking on t
 **Clone the repository**
 
 ```bash
-git clone https://github.com/strapi/strapi-starter-react-blog.git
+git clone git@github.com:JiscSD/strapi-cms-poc.git
 cd strapi-starter-react-blog
 ```
 

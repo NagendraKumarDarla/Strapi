@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "LP_Photo_Feature_slice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slice.photo-feature-slice"
+    }
+  }
+}

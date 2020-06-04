@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_slice_photo_feature_slice",
+  "info": {
+    "name": "Photo Feature Slice",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Feature_are_text": {
+      "type": "richtext"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Image_position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ]
+    }
+  }
+}

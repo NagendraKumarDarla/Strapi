@@ -62,10 +62,6 @@ cd strapi-starter-react-blog
 ```bash
 cd backend
 
-# Using yarn
-yarn
-yarn develop
-
 # Using npm
 npm install
 npm run develop
@@ -75,10 +71,6 @@ npm run develop
 
 ```bash
 cd frontend
-
-# Using yarn
-yarn
-yarn develop
 
 # Using npm
 npm install

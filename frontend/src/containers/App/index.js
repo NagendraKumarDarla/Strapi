@@ -3,6 +3,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 
 import Nav from "../../components/Nav";
+import Page from "../../components/Page";
 import Articles from "../Articles";
 import Article from "../Article";
 import Category from "../Category";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" component={Articles} exact />
         <Route path="/article/:id" component={Article} exact />
         <Route path="/category/:id" component={Category} exact />
+        <Route path="/pages/:id" component={Page} exact />
       </Switch>
     </div>
   );

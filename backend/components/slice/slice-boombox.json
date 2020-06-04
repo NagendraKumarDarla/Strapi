@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_slice_slice_boomboxes",
+  "info": {
+    "name": "slice_boombox",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "type": "string",
+      "default": "#FF0000"
+    },
+    "title": {
+      "type": "richtext",
+      "default": "Default title value"
+    },
+    "copy": {
+      "type": "richtext"
+    },
+    "button_text": {
+      "type": "string",
+      "default": "Default text"
+    },
+    "background_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
